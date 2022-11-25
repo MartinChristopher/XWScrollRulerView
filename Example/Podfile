@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XWScrollRulerView_Example' do
+  pod 'XWScrollRulerView', :path => '../'
+
+  target 'XWScrollRulerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
