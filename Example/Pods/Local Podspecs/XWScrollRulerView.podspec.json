@@ -1,6 +1,6 @@
 {
   "name": "XWScrollRulerView",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of XWScrollRulerView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MartinChristopher/XWScrollRulerView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MartinChristopher/XWScrollRulerView.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"

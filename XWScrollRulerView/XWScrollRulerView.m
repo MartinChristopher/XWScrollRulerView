@@ -220,7 +220,6 @@ typedef enum: NSUInteger {
     if (self.currentValueChanged) {
         self.currentValueChanged(selectValue);
     }
-    NSLog(@"scrollViewDidScroll ====%f",selectValue);
 }
 
 @end

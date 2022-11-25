@@ -1,5 +1,5 @@
 PODS:
-  - XWScrollRulerView (0.0.1)
+  - XWScrollRulerView (0.0.2)
 
 DEPENDENCIES:
   - XWScrollRulerView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XWScrollRulerView: f141dc80f2384bf13741cf1c05a661596144813c
+  XWScrollRulerView: 2106d4152ce9528a01e38a048fef7d4d83203ea3
 
 PODFILE CHECKSUM: f908ac03c1347c8ffdcd2ddedd8e81601e39d12a
 
