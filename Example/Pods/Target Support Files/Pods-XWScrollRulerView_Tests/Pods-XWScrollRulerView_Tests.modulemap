@@ -1,0 +1,6 @@
+framework module Pods_XWScrollRulerView_Tests {
+  umbrella header "Pods-XWScrollRulerView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

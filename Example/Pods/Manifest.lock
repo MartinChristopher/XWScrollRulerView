@@ -1,0 +1,16 @@
+PODS:
+  - XWScrollRulerView (0.0.1)
+
+DEPENDENCIES:
+  - XWScrollRulerView (from `../`)
+
+EXTERNAL SOURCES:
+  XWScrollRulerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XWScrollRulerView: f141dc80f2384bf13741cf1c05a661596144813c
+
+PODFILE CHECKSUM: f908ac03c1347c8ffdcd2ddedd8e81601e39d12a
+
+COCOAPODS: 1.11.3

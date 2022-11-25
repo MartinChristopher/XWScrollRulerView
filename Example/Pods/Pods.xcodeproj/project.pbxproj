@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DC91D9AA8D0F95A0BE95C9D1D2C9AF0 /* XWScrollRulerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 602597EC8495B5DE3A7411476D2C8A58 /* XWScrollRulerView-dummy.m */; };
+		219BBBAF90033C86DE3F4769F18861FA /* Pods-XWScrollRulerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E03ADCCAD0660D20471A27D42C27A /* Pods-XWScrollRulerView_Tests-dummy.m */; };
+		4799176605D4D618DEFD209AAF2E89B0 /* XWScrollRulerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E712FFFB7EEB47840E81E1D207BC45 /* XWScrollRulerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D6C34191EF244E34FB0AE0E1BA25B7E /* XWScrollRulerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F02197A2F506BC5ACD8C81FC5901AB /* XWScrollRulerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CCF60B4D1D3E08AB70A5EB48C4232FB /* XWScrollRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4546F3576DBF74B8B1B883ACDF818A /* XWScrollRulerView.m */; };
+		8E7A0AEE41487D9BF707EB4F3BF5B8DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		92796E84A018AC9291AF61070CB58271 /* Pods-XWScrollRulerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0222E4BAB031FFF7AF197876DB010725 /* Pods-XWScrollRulerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D791612863699DDBACF84A67C3C8B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B4CF6B032FB47187A8E6249C2E4187BE /* Pods-XWScrollRulerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 322EDB054FF4886A0584B6DE63AC9E94 /* Pods-XWScrollRulerView_Example-dummy.m */; };
+		D5731EF1BEC8E5868FCB40EE0D965176 /* Pods-XWScrollRulerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB39D42291819AED9CDA51AC5014AF4 /* Pods-XWScrollRulerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55F7D521F415850FAD9EED22B37D24B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		149CB9C60D6F429BC0BE63EF58A2EF2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D925A1EDADC538E23783528EA09772B;
+			remoteInfo = XWScrollRulerView;
+		};
+		D2331A10104555D66E84574FE234DE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805D354BBA79736BFF84429993C25764;
+			remoteInfo = "Pods-XWScrollRulerView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B4037D3760C058573975BB045233B /* Pods-XWScrollRulerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XWScrollRulerView_Tests.modulemap"; sourceTree = "<group>"; };
+		0222E4BAB031FFF7AF197876DB010725 /* Pods-XWScrollRulerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XWScrollRulerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		047E03ADCCAD0660D20471A27D42C27A /* Pods-XWScrollRulerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XWScrollRulerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		14E712FFFB7EEB47840E81E1D207BC45 /* XWScrollRulerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XWScrollRulerView.h; path = XWScrollRulerView/XWScrollRulerView.h; sourceTree = "<group>"; };
+		154CDF9EF88FF9AE8BE50014452C746E /* Pods-XWScrollRulerView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XWScrollRulerView_Tests-Info.plist"; sourceTree = "<group>"; };
+		1BF2235496917A4AD2CCA77E5663E5CB /* Pods-XWScrollRulerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XWScrollRulerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2628F833DE286E397C8A83C5630BBD44 /* Pods-XWScrollRulerView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XWScrollRulerView_Tests"; path = Pods_XWScrollRulerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28255977E48B455E9BEF3FD02228F0D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		31AEAC4EF9765017AA00C862BD9B71BA /* XWScrollRulerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XWScrollRulerView-Info.plist"; sourceTree = "<group>"; };
+		322EDB054FF4886A0584B6DE63AC9E94 /* Pods-XWScrollRulerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XWScrollRulerView_Example-dummy.m"; sourceTree = "<group>"; };
+		35A3CC10873A5AF1C6A43C30D2B7AE69 /* Pods-XWScrollRulerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWScrollRulerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4954CECF5223FAC5EC067D3A34F3EF07 /* Pods-XWScrollRulerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWScrollRulerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4D2A40741CF447C85D6BD4F8CEFB7941 /* XWScrollRulerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XWScrollRulerView; path = XWScrollRulerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		602597EC8495B5DE3A7411476D2C8A58 /* XWScrollRulerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XWScrollRulerView-dummy.m"; sourceTree = "<group>"; };
+		64F7781741C01071E85D6D698DEE7243 /* XWScrollRulerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XWScrollRulerView.modulemap; sourceTree = "<group>"; };
+		662D6F154705F9A99D28EE86CB4FE3BC /* XWScrollRulerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XWScrollRulerView.release.xcconfig; sourceTree = "<group>"; };
+		68BE68AE4F08284BA25534A59CFBCDC7 /* Pods-XWScrollRulerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XWScrollRulerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7057F13014611408176E1E240F55B625 /* Pods-XWScrollRulerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XWScrollRulerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D4546F3576DBF74B8B1B883ACDF818A /* XWScrollRulerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XWScrollRulerView.m; path = XWScrollRulerView/XWScrollRulerView.m; sourceTree = "<group>"; };
+		84F02197A2F506BC5ACD8C81FC5901AB /* XWScrollRulerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XWScrollRulerView-umbrella.h"; sourceTree = "<group>"; };
+		9831B3392EDD4BD336B650DEE8861FFA /* Pods-XWScrollRulerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWScrollRulerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAB660C3FF0C3DC97488E6A3101547B /* Pods-XWScrollRulerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XWScrollRulerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FD1D38362FF76E4973B7C50F766DB0D /* Pods-XWScrollRulerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XWScrollRulerView_Example.modulemap"; sourceTree = "<group>"; };
+		AA73AB66E269CA8B5C6582E5056CC738 /* XWScrollRulerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XWScrollRulerView-prefix.pch"; sourceTree = "<group>"; };
+		BFB39D42291819AED9CDA51AC5014AF4 /* Pods-XWScrollRulerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XWScrollRulerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CFA49FBCAEDD6CC214856CA7480E5C1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5ADE321FEAF89E1B16629FFC713125F /* Pods-XWScrollRulerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XWScrollRulerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DCA073346ADA1C57DE2B6B99B907B846 /* Pods-XWScrollRulerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XWScrollRulerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E29AE403DA7704B8C6CFA460284B99A2 /* XWScrollRulerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XWScrollRulerView.debug.xcconfig; sourceTree = "<group>"; };
+		F0603A4C0EC881D2214DA1909B2EAEB7 /* Pods-XWScrollRulerView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XWScrollRulerView_Example"; path = Pods_XWScrollRulerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F094213E1E411DE17E2389AFF8D14082 /* XWScrollRulerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XWScrollRulerView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC7BC7127010FE9BB2439A67E2E3834C /* Pods-XWScrollRulerView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XWScrollRulerView_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BE7B6669452A1357557FA53C1990E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7A0AEE41487D9BF707EB4F3BF5B8DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84799B50943C5BCB661F323BBEB48794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D791612863699DDBACF84A67C3C8B27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABE976E814A99F8F12F80031B687B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55F7D521F415850FAD9EED22B37D24B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049FD5BE7A4928181AAAC38FA2B350B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC9154F603AC25E8564CBFFEF02677 /* Pods-XWScrollRulerView_Example */,
+				FC7C0D5C319C09AA3D8C3ED745F7A7C1 /* Pods-XWScrollRulerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5313EB61D55521CFFA6325610B4F4B25 /* XWScrollRulerView */ = {
+			isa = PBXGroup;
+			children = (
+				14E712FFFB7EEB47840E81E1D207BC45 /* XWScrollRulerView.h */,
+				7D4546F3576DBF74B8B1B883ACDF818A /* XWScrollRulerView.m */,
+				567C039FEFCCBB2AD8A96F66842AB843 /* Pod */,
+				7B71A498D244448EB381A7DA00AAE7AC /* Support Files */,
+			);
+			name = XWScrollRulerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		567C039FEFCCBB2AD8A96F66842AB843 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				28255977E48B455E9BEF3FD02228F0D0 /* LICENSE */,
+				CFA49FBCAEDD6CC214856CA7480E5C1F /* README.md */,
+				F094213E1E411DE17E2389AFF8D14082 /* XWScrollRulerView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B71A498D244448EB381A7DA00AAE7AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F7781741C01071E85D6D698DEE7243 /* XWScrollRulerView.modulemap */,
+				602597EC8495B5DE3A7411476D2C8A58 /* XWScrollRulerView-dummy.m */,
+				31AEAC4EF9765017AA00C862BD9B71BA /* XWScrollRulerView-Info.plist */,
+				AA73AB66E269CA8B5C6582E5056CC738 /* XWScrollRulerView-prefix.pch */,
+				84F02197A2F506BC5ACD8C81FC5901AB /* XWScrollRulerView-umbrella.h */,
+				E29AE403DA7704B8C6CFA460284B99A2 /* XWScrollRulerView.debug.xcconfig */,
+				662D6F154705F9A99D28EE86CB4FE3BC /* XWScrollRulerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XWScrollRulerView";
+			sourceTree = "<group>";
+		};
+		B34E5C267010FD845A94CB202AA95E74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5313EB61D55521CFFA6325610B4F4B25 /* XWScrollRulerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C3EC9154F603AC25E8564CBFFEF02677 /* Pods-XWScrollRulerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9FD1D38362FF76E4973B7C50F766DB0D /* Pods-XWScrollRulerView_Example.modulemap */,
+				7057F13014611408176E1E240F55B625 /* Pods-XWScrollRulerView_Example-acknowledgements.markdown */,
+				9DAB660C3FF0C3DC97488E6A3101547B /* Pods-XWScrollRulerView_Example-acknowledgements.plist */,
+				322EDB054FF4886A0584B6DE63AC9E94 /* Pods-XWScrollRulerView_Example-dummy.m */,
+				D5ADE321FEAF89E1B16629FFC713125F /* Pods-XWScrollRulerView_Example-frameworks.sh */,
+				FC7BC7127010FE9BB2439A67E2E3834C /* Pods-XWScrollRulerView_Example-Info.plist */,
+				0222E4BAB031FFF7AF197876DB010725 /* Pods-XWScrollRulerView_Example-umbrella.h */,
+				4954CECF5223FAC5EC067D3A34F3EF07 /* Pods-XWScrollRulerView_Example.debug.xcconfig */,
+				DCA073346ADA1C57DE2B6B99B907B846 /* Pods-XWScrollRulerView_Example.release.xcconfig */,
+			);
+			name = "Pods-XWScrollRulerView_Example";
+			path = "Target Support Files/Pods-XWScrollRulerView_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B34E5C267010FD845A94CB202AA95E74 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F92C58BAB4BBF408A82897626C54C660 /* Products */,
+				049FD5BE7A4928181AAAC38FA2B350B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F92C58BAB4BBF408A82897626C54C660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0603A4C0EC881D2214DA1909B2EAEB7 /* Pods-XWScrollRulerView_Example */,
+				2628F833DE286E397C8A83C5630BBD44 /* Pods-XWScrollRulerView_Tests */,
+				4D2A40741CF447C85D6BD4F8CEFB7941 /* XWScrollRulerView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7C0D5C319C09AA3D8C3ED745F7A7C1 /* Pods-XWScrollRulerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				002B4037D3760C058573975BB045233B /* Pods-XWScrollRulerView_Tests.modulemap */,
+				68BE68AE4F08284BA25534A59CFBCDC7 /* Pods-XWScrollRulerView_Tests-acknowledgements.markdown */,
+				1BF2235496917A4AD2CCA77E5663E5CB /* Pods-XWScrollRulerView_Tests-acknowledgements.plist */,
+				047E03ADCCAD0660D20471A27D42C27A /* Pods-XWScrollRulerView_Tests-dummy.m */,
+				154CDF9EF88FF9AE8BE50014452C746E /* Pods-XWScrollRulerView_Tests-Info.plist */,
+				BFB39D42291819AED9CDA51AC5014AF4 /* Pods-XWScrollRulerView_Tests-umbrella.h */,
+				9831B3392EDD4BD336B650DEE8861FFA /* Pods-XWScrollRulerView_Tests.debug.xcconfig */,
+				35A3CC10873A5AF1C6A43C30D2B7AE69 /* Pods-XWScrollRulerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-XWScrollRulerView_Tests";
+			path = "Target Support Files/Pods-XWScrollRulerView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F4620BD6BF751E367CE521997AF2799 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5731EF1BEC8E5868FCB40EE0D965176 /* Pods-XWScrollRulerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC953E4733583A3B7D4268B18041DE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92796E84A018AC9291AF61070CB58271 /* Pods-XWScrollRulerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587C5D9BDCE618F72CB98C9D9C300B1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4799176605D4D618DEFD209AAF2E89B0 /* XWScrollRulerView.h in Headers */,
+				6D6C34191EF244E34FB0AE0E1BA25B7E /* XWScrollRulerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D925A1EDADC538E23783528EA09772B /* XWScrollRulerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A816CE36DBCC891B46061836CE31F497 /* Build configuration list for PBXNativeTarget "XWScrollRulerView" */;
+			buildPhases = (
+				587C5D9BDCE618F72CB98C9D9C300B1B /* Headers */,
+				E632442539DF21A8FE4BEC34622AD619 /* Sources */,
+				9ABE976E814A99F8F12F80031B687B66 /* Frameworks */,
+				A19FD77F6A9F9343C0451FA4BD26176F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWScrollRulerView;
+			productName = XWScrollRulerView;
+			productReference = 4D2A40741CF447C85D6BD4F8CEFB7941 /* XWScrollRulerView */;
+			productType = "com.apple.product-type.framework";
+		};
+		805D354BBA79736BFF84429993C25764 /* Pods-XWScrollRulerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8618E33299C26441E67C817708D429B2 /* Build configuration list for PBXNativeTarget "Pods-XWScrollRulerView_Example" */;
+			buildPhases = (
+				2CC953E4733583A3B7D4268B18041DE8 /* Headers */,
+				E4CD1B18DDB476FB54B4455357AC2C06 /* Sources */,
+				84799B50943C5BCB661F323BBEB48794 /* Frameworks */,
+				A7C199E5781F8F0BF38332848A14C311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52C51E47A8FF103833E2595090E0B95 /* PBXTargetDependency */,
+			);
+			name = "Pods-XWScrollRulerView_Example";
+			productName = Pods_XWScrollRulerView_Example;
+			productReference = F0603A4C0EC881D2214DA1909B2EAEB7 /* Pods-XWScrollRulerView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADC28CFF4327CC117C98BDE78C65FAC1 /* Pods-XWScrollRulerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4DD55E0F0F0233856B1775227EA6F9 /* Build configuration list for PBXNativeTarget "Pods-XWScrollRulerView_Tests" */;
+			buildPhases = (
+				1F4620BD6BF751E367CE521997AF2799 /* Headers */,
+				084369CED1048519D289EAA5057CF9FA /* Sources */,
+				7BE7B6669452A1357557FA53C1990E5F /* Frameworks */,
+				300BFCA99CD498EB2C70BFFF5374D2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B87A705FE0B6451AC4B98717030C33DB /* PBXTargetDependency */,
+			);
+			name = "Pods-XWScrollRulerView_Tests";
+			productName = Pods_XWScrollRulerView_Tests;
+			productReference = 2628F833DE286E397C8A83C5630BBD44 /* Pods-XWScrollRulerView_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F92C58BAB4BBF408A82897626C54C660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805D354BBA79736BFF84429993C25764 /* Pods-XWScrollRulerView_Example */,
+				ADC28CFF4327CC117C98BDE78C65FAC1 /* Pods-XWScrollRulerView_Tests */,
+				3D925A1EDADC538E23783528EA09772B /* XWScrollRulerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300BFCA99CD498EB2C70BFFF5374D2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19FD77F6A9F9343C0451FA4BD26176F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C199E5781F8F0BF38332848A14C311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		084369CED1048519D289EAA5057CF9FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219BBBAF90033C86DE3F4769F18861FA /* Pods-XWScrollRulerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CD1B18DDB476FB54B4455357AC2C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CF6B032FB47187A8E6249C2E4187BE /* Pods-XWScrollRulerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E632442539DF21A8FE4BEC34622AD619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCF60B4D1D3E08AB70A5EB48C4232FB /* XWScrollRulerView.m in Sources */,
+				1DC91D9AA8D0F95A0BE95C9D1D2C9AF0 /* XWScrollRulerView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A52C51E47A8FF103833E2595090E0B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XWScrollRulerView;
+			target = 3D925A1EDADC538E23783528EA09772B /* XWScrollRulerView */;
+			targetProxy = 149CB9C60D6F429BC0BE63EF58A2EF2F /* PBXContainerItemProxy */;
+		};
+		B87A705FE0B6451AC4B98717030C33DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XWScrollRulerView_Example";
+			target = 805D354BBA79736BFF84429993C25764 /* Pods-XWScrollRulerView_Example */;
+			targetProxy = D2331A10104555D66E84574FE234DE25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E7A15E3498C3BBCF68B9B469B06B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4954CECF5223FAC5EC067D3A34F3EF07 /* Pods-XWScrollRulerView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XWScrollRulerView_Example/Pods-XWScrollRulerView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XWScrollRulerView_Example/Pods-XWScrollRulerView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F4D7A6A73931EDD42A02429CA2D66C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29AE403DA7704B8C6CFA460284B99A2 /* XWScrollRulerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XWScrollRulerView/XWScrollRulerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XWScrollRulerView/XWScrollRulerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XWScrollRulerView/XWScrollRulerView.modulemap";
+				PRODUCT_MODULE_NAME = XWScrollRulerView;
+				PRODUCT_NAME = XWScrollRulerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9AE799383013B6D42C1EEFAF33644DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA073346ADA1C57DE2B6B99B907B846 /* Pods-XWScrollRulerView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XWScrollRulerView_Example/Pods-XWScrollRulerView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XWScrollRulerView_Example/Pods-XWScrollRulerView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8728E9F97BFF02CB07972723877704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9831B3392EDD4BD336B650DEE8861FFA /* Pods-XWScrollRulerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XWScrollRulerView_Tests/Pods-XWScrollRulerView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XWScrollRulerView_Tests/Pods-XWScrollRulerView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF39044FDC747295964B824B4C97A798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662D6F154705F9A99D28EE86CB4FE3BC /* XWScrollRulerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XWScrollRulerView/XWScrollRulerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XWScrollRulerView/XWScrollRulerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XWScrollRulerView/XWScrollRulerView.modulemap";
+				PRODUCT_MODULE_NAME = XWScrollRulerView;
+				PRODUCT_NAME = XWScrollRulerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F71910009E07A771BFA742A6A5AD316E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A3CC10873A5AF1C6A43C30D2B7AE69 /* Pods-XWScrollRulerView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XWScrollRulerView_Tests/Pods-XWScrollRulerView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XWScrollRulerView_Tests/Pods-XWScrollRulerView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8618E33299C26441E67C817708D429B2 /* Build configuration list for PBXNativeTarget "Pods-XWScrollRulerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E7A15E3498C3BBCF68B9B469B06B5A /* Debug */,
+				9AE799383013B6D42C1EEFAF33644DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4DD55E0F0F0233856B1775227EA6F9 /* Build configuration list for PBXNativeTarget "Pods-XWScrollRulerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8728E9F97BFF02CB07972723877704C /* Debug */,
+				F71910009E07A771BFA742A6A5AD316E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A816CE36DBCC891B46061836CE31F497 /* Build configuration list for PBXNativeTarget "XWScrollRulerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4D7A6A73931EDD42A02429CA2D66C3 /* Debug */,
+				EF39044FDC747295964B824B4C97A798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

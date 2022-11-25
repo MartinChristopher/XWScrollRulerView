@@ -1,0 +1,6 @@
+framework module XWScrollRulerView {
+  umbrella header "XWScrollRulerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
